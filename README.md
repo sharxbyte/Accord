@@ -1,25 +1,32 @@
-# 📚 Custom Dictionary Bot
+# Concur Discord Bot 📚
 
-A high-performance Discord bot designed to allow users within a server community to set, manage, and use custom definitions for words and phrases, with robust multi-server isolation logic.
+Concur is an open-source Discord bot built with Python (`discord.py`) designed to inject structural clarity into active discussions, political debates, and casual conversations. By allowing individual users to declare their own contextual dictionary definitions, Concur parses channel messages in real-time to match defined keywords—offering contextual tools to prevent semantic disputes before they stall a conversation.
 
-## ✨ Features Overview
+🔒 **Designed with Compliance In Mind:** Concur strictly follows the Discord Developer Policy and California privacy standards (CCPA/CPRA). Message scanning occurs exclusively in-memory (volatile RAM) to dynamically evaluate keyword triggers and is immediately discarded. No personal user chats or logs are permanently written to a database.
 
-*   **Custom Definitions:** Define words/aliases (e.g., "State," "states") and their custom meanings.
-*   **Multi-Scope Isolation:** Supports **Global** definitions (apply everywhere) and **Server-Specific** definitions (only applicable to the current server).
-*   **Priority System:** Server-specific definitions always override global ones for that user.
-*   **Advanced Matching:** Uses dynamic regex generation (`\b(word1|word2)\b`) ensuring word boundaries are respected, handling multi-aliases and case fallback efficiently.
-*   **Message Parsing:** Detects custom words in chat messages. Displays a rich embed on first use (in 1 hour) and a simple link reply thereafter.
-*   **External Lookup:** Integrates with an external dictionary API for standard definitions.
+---
 
-## 🚀 Getting Started
+## 🛠️ Features
 
-### Prerequisites
-1. Python 3.8+
-2. A Discord Bot Token (`DISCORD_BOT_TOKEN`). Ensure the bot has necessary permissions (Read Message History, Send Messages/Embeds, Administrator rights may be needed for viewing other users).
-3. The `requirements.txt` dependencies installed.
+* **Custom Definitions (`/def add`)**: Define personal words, acronyms, or specific phrases to reflect your exact meaning during a dispute.
+* **Database Cooldown & Minimization**: Automatic database caching and transient memory cleanup prevent server strain and uphold data protection principles.
+* **Official Dictionary Backups (`/define`)**: Integrates an external dictionary API lookup structure to fetch trustworthy, classical definitions on the fly.
+* **User Control**: Individual definitions are fully managed, editable, and clearable instantly via interactive Discord slash commands.
 
-### Installation
-1. Clone or navigate to your project directory.
-2. Install Python dependencies:
+---
+
+## 🚀 Technical Requirements & Stack
+
+* **Language**: Python 3.8+
+* **Core Libraries**: `discord.py`, `aiohttp`, `python-dotenv`
+* **Database**: Embedded SQLite (`definitions.db`)
+* **Hosting Support**: Fully configured for plug-and-play deployment on virtual environments or panels like Wispbyte.
+
+---
+
+## 💾 Installation & Local Setup
+
+1. **Clone the Repository:**
    ```bash
-   pip install -r requirements.txt
+   git clone [https://github.com/sharxbyte/Accord.git](https://github.com/sharxbyte/Accord.git)
+   cd Accord
