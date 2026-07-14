@@ -1,10 +1,10 @@
-PRIVACY POLICY FOR ACCORD DISCORD BOT
+PRIVACY POLICY FOR CONCUR DISCORD BOT
 Effective Date: July 13, 2026
 
-Accord (referred to as "the Bot", "we", "us", or "our") provides custom phrase definition and message parsing services within Discord servers. This Privacy Policy explains how we collect, use, store, and protect information when you interact with Accord, and sets forth your rights under California law, including the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA).
+Concur (referred to as "the Bot", "we", "us", or "our") provides custom phrase definition and message parsing services within Discord servers. This Privacy Policy explains how we collect, use, store, and protect information when you interact with Concur, and sets forth your rights under California law, including the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA).
 
 1. INFORMATION WE COLLECT
-Accord is built with a minimal data collection model. We do not track users across the web, nor do we build advertising profiles. We only collect and store data absolutely necessary to perform our core functions: saving and retrieving custom user definitions.
+Concur is built with a minimal data collection model. We do not track users across the web, nor do we build advertising profiles. We only collect and store data absolutely necessary to perform our core functions: saving and retrieving custom user definitions.
 
 Discord User Identifiers (User IDs): Unique numeric identifiers assigned by Discord (e.g., 1526438896718708876). This is stored to pair you with the custom definitions you create.
 
@@ -52,11 +52,10 @@ Right to Correct: You have the right to correct inaccurate data. You can update 
 
 Right to Non-Discrimination: We will never deny or degrade services if you choose to exercise your privacy rights.
 
-
 6. LIMITATION OF LIABILITY AND HOLD HARMLESS
-By inviting Accord to your Discord server or utilizing its commands, you explicitly acknowledge and agree to the following terms:
+By inviting Concur to your Discord server or utilizing its commands, you explicitly acknowledge and agree to the following terms:
 
-"As-Is" Service: Accord is provided on an "as-is" and "as-available" basis without warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+"As-Is" Service: Concur is provided on an "as-is" and "as-available" basis without warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
 
 Indemnification and Hold Harmless: You agree to defend, indemnify, and hold harmless the Bot creator(s), developers, administrators, and contributors from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:
 
@@ -69,10 +68,67 @@ Each user is responsible for their own data and can manage it via the commands p
 Any service disruptions, technical malfunctions, data corruption, or loss of definitions associated with our hosting environment (Wispbyte).
 
 Third-Party Lookups: The Bot utilizes external API calls for standard dictionary definitions. We are not responsible or liable for the accuracy, content, or availability of these third-party definitions.
+
 7. DATA SECURITY
 We implement appropriate technical safeguards to protect your information. Access to your hosted database on Wispbyte is strictly restricted to authorized administrators via secure authorization keys and environment variables (DISCORD_BOT_TOKEN).
 
 8. CONTACT US
 If you have any questions about this Privacy Policy, please contact the bot administrator or submit an issue via our official repository page at:
+
+GitHub Repository: https://github.com/sharxbyte/Concur
+
+📄 TERMS OF SERVICE FOR CONCUR DISCORD BOT
+Effective Date: July 13, 2026
+
+Welcome to Concur (referred to as "the Bot", "we", "us", or "our"). Concur is an open-source tool designed to provide linguistic context during active discussions, debates, and conversations by allowing users to define custom words or phrases to clarify their unique intended meanings.
+
+By inviting Concur to a Discord server, or by interacting with its commands and features as an individual user, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you must not add, use, or interact with the Bot.
+
+1. OPEN SOURCE LICENSE ACKNOWLEDGMENT
+Concur is open-source software distributed under the GNU General Public License v3.0 (GPL-3.0). While these Terms govern the use of the hosted instance of the Bot, the underlying source code is subject to the freedoms and restrictions outlined in the GPL-3.0 license. Nothing in these Terms overrides or diminishes your rights or obligations under that open-source license regarding the software code itself.
+
+2. SERVER ADMINISTRATOR RESPONSIBILITY (GUILD INSTALLATION)
+Any individual who installs, invites, or authorizes Concur onto a Discord server ("Server Administrator") acknowledges and agrees that they do so at their own discretion. Server Administrators are solely responsible for:
+
+The initial installation, configuration, and setup of the Bot within their respective server(s).
+
+The active moderation, access controls, permissions management, and monitoring of how the Bot is utilized within their community channels.
+
+The complete uninstallation, removal, or deletion of the Bot and any of its localized data/records from their server when it is no longer desired.
+
+The Bot creator(s) and developers exercise no control over individual server operations and cannot be held responsible for server-level administrative decisions, misconfigurations, or moderation failures.
+
+3. USER RESPONSIBILITY FOR CONTENT AND DEFINITIONS
+Concur acts as a passive, neutral conduit for text processing.
+
+Individual Ownership: All users are strictly and solely responsible for the custom definitions, words, phrases, and associated text they submit, map, or modify using the Bot's commands (e.g., /add_definition). Each user is responsible for their own data and can manage it via the commands provided.
+
+Compliance with Laws and Community Guidelines: You agree not to use the Bot to create, store, or display definitions that violate federal, state, or local laws, or that breach the Discord Terms of Service and Community Guidelines (including, but not limited to, content that constitutes unlawful harassment, defamation, or hate speech).
+
+Contextual Clarity: You acknowledge that the primary purpose of the Bot is to clarify personal contextual meanings during conversations and debates, and that the definitions provided by users do not reflect the views, opinions, or endorsements of the Bot creator(s).
+
+4. DISCLAIMER OF WARRANTIES AND ACCURACY
+THE BOT IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE BOT CREATOR(S) AND DEVELOPERS DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+We do not guarantee that the Bot will operate uninterrupted, error-free, or entirely secure, nor do we guarantee the absolute accuracy, truthfulness, or appropriateness of any user-generated definition or external third-party dictionary lookup.
+
+5. LIMITATION OF LIABILITY AND HOLD HARMLESS
+UNDER NO LEGAL THEORY (WHETHER IN CONTRACT, TORT, NEGLIGENCE, OR OTHERWISE) SHALL THE BOT CREATOR(S), DEVELOPERS, ADMINISTRATORS, HOSTER (WISPBYTE), OR CONTRIBUTORS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS, LOSS OF DATA, SERVER MALFUNCTIONS, OR SYSTEM DOWNTIME ARISING OUT OF THE USE OR INABILITY TO USE THE BOT.
+
+Hold Harmless: You agree to fully indemnify, defend, and hold harmless the Bot creator(s) and developers from and against any and all claims, lawsuits, damages, losses, liabilities, costs, or expenses (including reasonable attorney's fees) arising directly or indirectly from how you or any other user utilizes, interacts with, or deploys the Bot on a server. You explicitly agree that you cannot sue, nor bring legal action against, the Bot creator(s) for user-generated content or server disruption.
+
+6. DISPUTE RESOLUTION AND GOVERNING LAW
+Governing Law: These Terms and any dispute arising out of or relating to the Bot shall be governed by, interpreted, and enforced in accordance with the laws of the State of California, United States, without regard to its conflict of law principles.
+
+No Arbitration: Disputes arising under these Terms shall not be subject to mandatory binding arbitration. Instead, any legal action, suit, or proceeding arising out of or relating to these Terms must be instituted exclusively in the state or federal courts located in California, and you hereby consent to the personal jurisdiction of such courts.
+
+7. SEVERABILITY
+If any provision, section, or sub-clause of these Terms is found by a court of competent jurisdiction to be invalid, illegal, or unenforceable, that specific provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions of these Terms shall continue in full force and effect.
+
+8. MODIFICATIONS TO TERMS
+We reserve the right to update or modify these Terms at any time. Any changes will become effective immediately upon updating the Terms file within our official hosting repository. Continued use of the Bot following any modifications constitutes your formal acceptance of the revised Terms.
+
+9. CONTACT INFORMATION
+For questions regarding these Terms, or to report an issue or review the underlying source files, please visit our official repository at:
 
 GitHub Repository: https://github.com/sharxbyte/Accord
