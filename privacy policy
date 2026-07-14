@@ -6,7 +6,7 @@ Concur (referred to as "the Bot", "we", "us", or "our") provides custom phrase d
 1. INFORMATION WE COLLECT
 Concur is built with a minimal data collection model. We do not track users across the web, nor do we build advertising profiles. We only collect and store data absolutely necessary to perform our core functions: saving and retrieving custom user definitions.
 
-Discord User Identifiers (User IDs): Unique numeric identifiers assigned by Discord (e.g., 1526438896718708876). This is stored to pair you with the custom definitions you create.
+Discord User Identifiers (User IDs): Unique numeric identifiers assigned by Discord (e.g., 1234567898765432101). This is stored to pair you with the custom definitions you create.
 
 Discord Guild/Server Identifiers (Guild IDs): Numeric identifiers for the servers where the Bot is active, stored to manage server-specific configurations or scope.
 
