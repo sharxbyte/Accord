@@ -1,0 +1,78 @@
+PRIVACY POLICY FOR ACCORD DISCORD BOT
+Effective Date: July 13, 2026
+
+Accord (referred to as "the Bot", "we", "us", or "our") provides custom phrase definition and message parsing services within Discord servers. This Privacy Policy explains how we collect, use, store, and protect information when you interact with Accord, and sets forth your rights under California law, including the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA).
+
+1. INFORMATION WE COLLECT
+Accord is built with a minimal data collection model. We do not track users across the web, nor do we build advertising profiles. We only collect and store data absolutely necessary to perform our core functions: saving and retrieving custom user definitions.
+
+Discord User Identifiers (User IDs): Unique numeric identifiers assigned by Discord (e.g., 1526438896718708876). This is stored to pair you with the custom definitions you create.
+
+Discord Guild/Server Identifiers (Guild IDs): Numeric identifiers for the servers where the Bot is active, stored to manage server-specific configurations or scope.
+
+Discord Channel Identifiers (Channel IDs): Temporary or persistent identifiers used strictly for processing, command cooldowns, and message parsing contexts.
+
+Custom Definition Data: The specific words, phrases, and definitions you choose to input using our commands (e.g., /add_definition).
+
+Transient Message Content: When active in a channel, the Bot parses text messages in real-time to match defined keywords. This content is processed strictly in-memory (RAM) and is never permanently written or saved to our database logs.
+
+2. HOW WE USE YOUR INFORMATION
+We use the collected information exclusively to operate and maintain the Bot's core features:
+
+To accurately match, display, and manage your saved custom definitions.
+
+To enforce command rate-limiting (cooldowns) to protect our infrastructure from abuse.
+
+To process message text within active channels to display context tooltips for defined terms.
+
+3. SHARING AND SALE OF DATA
+No Sale or Sharing: We do not sell your personal information or share your personal information with third parties.
+
+No Third-Party Brokers: Your information is never provided to third-party brokers, data aggregators, or marketing firms.
+
+Infrastructure Partners: Your data is securely held within a private database managed by our hosting provider (Wispbyte). This provider processes data strictly under our direction to maintain server operations.
+
+4. DATA RETENTION
+We adhere to California data minimization principles:
+
+Active Records: Your saved definitions and corresponding Discord User ID remain in our active SQLite database (definitions.db) for as long as you maintain them.
+
+User Removal: If you delete a custom definition or clear your data via the provided bot commands, that information is immediately removed from the database records.
+
+Volatile Data: Message content cache used during parsing is stored in transient memory and clears dynamically based on cooldown structures and system restarts.
+
+5. YOUR CALIFORNIA PRIVACY RIGHTS (CCPA/CPRA)
+If you are a California resident, you have specific rights regarding your personal information under the CCPA/CPRA:
+
+Right to Know/Access: You have the right to request a disclosure of what personal information we collect and how we use it. Because we only store your User ID paired with your definitions, your saved profile in the bot constitutes this information.
+
+Right to Delete: You have the right to request the deletion of personal information we have collected from you. You can trigger this automatically by executing the deletion commands directly inside Discord, or by reaching out to the administrator.
+
+Right to Correct: You have the right to correct inaccurate data. You can update any definition instantly using the Bot’s modification commands.
+
+Right to Non-Discrimination: We will never deny or degrade services if you choose to exercise your privacy rights.
+
+
+6. LIMITATION OF LIABILITY AND HOLD HARMLESS
+By inviting Accord to your Discord server or utilizing its commands, you explicitly acknowledge and agree to the following terms:
+
+"As-Is" Service: Accord is provided on an "as-is" and "as-available" basis without warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+Indemnification and Hold Harmless: You agree to defend, indemnify, and hold harmless the Bot creator(s), developers, administrators, and contributors from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:
+
+Your use of and access to the Bot.
+
+Any custom definitions, content, or interpretations submitted under your Discord account that may be deemed offensive, defamatory, inaccurate, or violative of community guidelines.
+
+Each user is responsible for their own data and can manage it via the commands provided.
+
+Any service disruptions, technical malfunctions, data corruption, or loss of definitions associated with our hosting environment (Wispbyte).
+
+Third-Party Lookups: The Bot utilizes external API calls for standard dictionary definitions. We are not responsible or liable for the accuracy, content, or availability of these third-party definitions.
+7. DATA SECURITY
+We implement appropriate technical safeguards to protect your information. Access to your hosted database on Wispbyte is strictly restricted to authorized administrators via secure authorization keys and environment variables (DISCORD_BOT_TOKEN).
+
+8. CONTACT US
+If you have any questions about this Privacy Policy, please contact the bot administrator or submit an issue via our official repository page at:
+
+GitHub Repository: https://github.com/sharxbyte/Accord
